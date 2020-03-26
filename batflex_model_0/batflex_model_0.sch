@@ -1,0 +1,211 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR04
+U 1 1 5E7CD478
+P 4950 3800
+F 0 "#PWR04" H 4950 3550 50  0001 C CNN
+F 1 "GND" H 4955 3627 50  0000 C CNN
+F 2 "" H 4950 3800 50  0001 C CNN
+F 3 "" H 4950 3800 50  0001 C CNN
+	1    4950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR01
+U 1 1 5E7CD7A6
+P 3350 3500
+F 0 "#PWR01" H 3350 3350 50  0001 C CNN
+F 1 "+BATT" H 3365 3673 50  0000 C CNN
+F 2 "" H 3350 3500 50  0001 C CNN
+F 3 "" H 3350 3500 50  0001 C CNN
+	1    3350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR03
+U 1 1 5E7CDF64
+P 4950 3500
+F 0 "#PWR03" H 4950 3350 50  0001 C CNN
+F 1 "+BATT" H 4965 3673 50  0000 C CNN
+F 2 "" H 4950 3500 50  0001 C CNN
+F 3 "" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3500 4400 3500
+Wire Wire Line
+	3900 3500 3350 3500
+Wire Wire Line
+	4950 3800 4400 3800
+$Comp
+L power:GND #PWR02
+U 1 1 5E7CEE34
+P 3350 3800
+F 0 "#PWR02" H 3350 3550 50  0001 C CNN
+F 1 "GND" H 3355 3627 50  0000 C CNN
+F 2 "" H 3350 3800 50  0001 C CNN
+F 3 "" H 3350 3800 50  0001 C CNN
+	1    3350 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3800 3350 3800
+Wire Wire Line
+	3900 3600 3600 3600
+Wire Wire Line
+	3900 3700 3600 3700
+Wire Wire Line
+	4400 3600 4750 3600
+Wire Wire Line
+	4400 3700 4750 3700
+Text Label 3600 3600 0    50   ~ 0
+A
+Text Label 3600 3700 0    50   ~ 0
+B
+Text Label 4750 3600 2    50   ~ 0
+C
+Text Label 4750 3700 2    50   ~ 0
+D
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5E7D144C
+P 4750 3600
+F 0 "TP3" V 4704 3788 50  0000 L CNN
+F 1 "TestPoint" V 4795 3788 50  0000 L CNN
+F 2 "batflex:wire_pad_0.6x2mm" H 4950 3600 50  0001 C CNN
+F 3 "~" H 4950 3600 50  0001 C CNN
+	1    4750 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5E7D1BF7
+P 4750 3700
+F 0 "TP4" V 4704 3888 50  0000 L CNN
+F 1 "TestPoint" V 4795 3888 50  0000 L CNN
+F 2 "batflex:wire_pad_0.6x2mm" H 4950 3700 50  0001 C CNN
+F 3 "~" H 4950 3700 50  0001 C CNN
+	1    4750 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E7D1E6F
+P 3600 3700
+F 0 "TP2" V 3554 3888 50  0000 L CNN
+F 1 "TestPoint" V 3645 3888 50  0000 L CNN
+F 2 "batflex:wire_pad_0.6x2mm" H 3800 3700 50  0001 C CNN
+F 3 "~" H 3800 3700 50  0001 C CNN
+	1    3600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E7D1E79
+P 3600 3600
+F 0 "TP1" V 3554 3788 50  0000 L CNN
+F 1 "TestPoint" V 3645 3788 50  0000 L CNN
+F 2 "batflex:wire_pad_0.6x2mm" H 3800 3600 50  0001 C CNN
+F 3 "~" H 3800 3600 50  0001 C CNN
+	1    3600 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5E7D31AE
+P 5700 3600
+F 0 "TP5" V 5654 3788 50  0000 L CNN
+F 1 "TestPoint" V 5745 3788 50  0000 L CNN
+F 2 "batflex:wire_pad_2x4mm" H 5900 3600 50  0001 C CNN
+F 3 "~" H 5900 3600 50  0001 C CNN
+	1    5700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5E7D31B8
+P 5700 3700
+F 0 "TP6" V 5654 3888 50  0000 L CNN
+F 1 "TestPoint" V 5745 3888 50  0000 L CNN
+F 2 "batflex:wire_pad_2x4mm" H 5900 3700 50  0001 C CNN
+F 3 "~" H 5900 3700 50  0001 C CNN
+	1    5700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR05
+U 1 1 5E7D3BB8
+P 5700 3600
+F 0 "#PWR05" H 5700 3450 50  0001 C CNN
+F 1 "+BATT" H 5715 3773 50  0000 C CNN
+F 2 "" H 5700 3600 50  0001 C CNN
+F 3 "" H 5700 3600 50  0001 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E7D3F5C
+P 5700 3700
+F 0 "#PWR06" H 5700 3450 50  0001 C CNN
+F 1 "GND" H 5705 3527 50  0000 C CNN
+F 2 "" H 5700 3700 50  0001 C CNN
+F 3 "" H 5700 3700 50  0001 C CNN
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5E7DD006
+P 4100 3600
+F 0 "J1" H 4150 3917 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 4150 3826 50  0000 C CNN
+F 2 "batflex:molex_5050060812" H 4100 3600 50  0001 C CNN
+F 3 "~" H 4100 3600 50  0001 C CNN
+	1    4100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E7DF7C1
+P 5500 3600
+F 0 "#FLG0101" H 5500 3675 50  0001 C CNN
+F 1 "PWR_FLAG" H 5500 3773 50  0000 C CNN
+F 2 "" H 5500 3600 50  0001 C CNN
+F 3 "~" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E7DFC06
+P 5500 3700
+F 0 "#FLG0102" H 5500 3775 50  0001 C CNN
+F 1 "PWR_FLAG" H 5500 3873 50  0000 C CNN
+F 2 "" H 5500 3700 50  0001 C CNN
+F 3 "~" H 5500 3700 50  0001 C CNN
+	1    5500 3700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 3700 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3600 5500 3600
+Connection ~ 5700 3600
+$EndSCHEMATC
