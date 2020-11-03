@@ -177,10 +177,6 @@
   (junction (at 157.48 49.53) (diameter 1.016) (color 0 0 0 0))
   (junction (at 162.56 45.72) (diameter 1.016) (color 0 0 0 0))
 
-  (bus_entry (at 101.6 19.05) (size 2.54 2.54)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-  )
-
   (wire (pts (xy 74.93 49.53) (xy 143.51 49.53))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
@@ -483,7 +479,7 @@
     (property "Value" "1K" (id 1) (at 76.708 60.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 73.152 59.69 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 73.152 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 74.93 59.69 0)
@@ -500,7 +496,7 @@
     (property "Value" "1K" (id 1) (at 88.138 60.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 84.582 59.69 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 84.582 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 86.36 59.69 0)
@@ -517,7 +513,7 @@
     (property "Value" "1K" (id 1) (at 122.428 60.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 118.872 59.69 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 118.872 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 59.69 0)
@@ -534,7 +530,7 @@
     (property "Value" "1K" (id 1) (at 133.858 60.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 130.302 59.69 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 130.302 59.69 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 59.69 0)
@@ -580,16 +576,16 @@
       (reference "J2") (unit 1) (value "molex_505006") (footprint "batflex:molex_5050060812")
     )
     (path "/fb77e734-b0cc-4eac-a662-ba301895c38b"
-      (reference "R1") (unit 1) (value "1K") (footprint "")
+      (reference "R1") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a5d9d177-1824-4706-99be-1da0836b2a29"
-      (reference "R2") (unit 1) (value "1K") (footprint "")
+      (reference "R2") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f130de7a-f243-44b0-94cf-81fd8569087a"
-      (reference "R3") (unit 1) (value "1K") (footprint "")
+      (reference "R3") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/c2ed16f9-14d2-4850-851c-ded21e8fb428"
-      (reference "R4") (unit 1) (value "1K") (footprint "")
+      (reference "R4") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1f682d86-9d69-45ee-a128-66fd8a1f678e"
       (reference "TP01") (unit 1) (value "GND") (footprint "batflex:wire_pad_2x4mm")

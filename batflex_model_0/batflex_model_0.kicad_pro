@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": true,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.38,
+          "width": 0.24
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -115,17 +115,25 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.051,
+        "solder_mask_clearance": 0.02,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8
       ],
       "via_dimensions": [
         {
-          "diameter": 0.6,
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5588,
           "drill": 0.3
         }
       ],
@@ -386,7 +394,7 @@
   },
   "sheets": [
     [
-      "1eafda74-d393-4619-9f04-b17dd7138fdd",
+      "20bdf594-f3f3-4391-9d31-07b0aabec993",
       ""
     ]
   ],
