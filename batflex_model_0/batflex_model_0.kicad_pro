@@ -377,6 +377,7 @@
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
@@ -395,7 +396,7 @@
   },
   "sheets": [
     [
-      "20bdf594-f3f3-4391-9d31-07b0aabec993",
+      "84ce08b6-b2e4-47b1-b49e-729a134feacb",
       ""
     ]
   ],
