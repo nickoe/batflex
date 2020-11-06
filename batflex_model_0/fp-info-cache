@@ -1,4 +1,4 @@
-17984496011729438
+18024648109508335
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -81626,38 +81626,213 @@ varistor SIOV
 0
 2
 2
-batflex
-model_0
+aausat
+4-PIN-DC-DC_eBay
 
 
 0
-8
-8
-batflex
-molex_5050040812
-6 amp plug
-
-0
-8
-8
-batflex
-molex_5050060812
-6 amp plug
-
-0
-8
-8
-batflex
-wire_pad_0.6x2mm
+4
+4
+aausat
+AAUSAT_6stars
 
 
 0
-1
-1
-batflex
-wire_pad_2x4mm
+0
+0
+aausat
+FOX924
+
+
+0
+4
+4
+aausat
+KiCad-Logo_Back
 
 
 0
 1
 1
+aausat
+KiCad-Logo_Front
+
+
+0
+1
+1
+aausat
+PC104_Mounting_Hole
+
+
+0
+1
+1
+aausat
+PinHeader_2x26_P2.54mm_Vertical_Narrow_Pads
+Through hole straight pin header, 2x26, 2.54mm pitch, double rows
+Through hole pin header THT 2x26 2.54mm double row
+0
+52
+52
+aausat
+RF_Shield_TE_Connectivity_2118708-2
+RF SHIELD 1.032"X1.032" SMD
+
+0
+24
+1
+aausat
+RF_Shield_TE_Connectivity_2118708-2_with_vias
+RF SHIELD 1.032"X1.032" SMD
+
+0
+40
+1
+aausat
+Raspberry_Pi_Zero_or_any_Socketed_THT_FaceDown_MountingHoles
+Raspberry Pi Zero or any using through hole straight pin socket, 2x20, 2.54mm pitch, https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/rpi_MECH_Zero_1p2.pdf
+raspberry pi zero through hole
+0
+80
+40
+aausat
+S10B-ZR-SM4A-TF(LF)(SN)
+
+
+0
+12
+11
+aausat
+SolderJumper-2_P2.54mm_Bridged_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+4
+2
+aausat
+SolderJumper-2_P2.54mm_Open_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+4
+2
+aausat
+SolderJumper-3_P2.54mm_Bridged12_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+solder jumper open
+0
+7
+3
+aausat
+SolderJumper-3_P2.54mm_Bridged123_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
+solder jumper open
+0
+7
+3
+aausat
+SolderJumper-3_P2.54mm_Open_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+7
+3
+aausat
+TestPad
+
+
+0
+1
+1
+aausat
+USB_C_Receptacle_GT-USB-7010
+USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
+aausat
+USB_C_Receptacle_GT-USB-7010_RoundHoles
+USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
+aausat
+USB_Trident
+
+
+0
+0
+0
+aausat
+devboard_bread_board_area
+
+
+0
+237
+3
+aausat
+devboard_bread_board_area_lite
+
+
+0
+493
+3
+aausat
+logotest
+
+
+0
+0
+0
+aausat
+r1mm_w0.35mm_45deg
+
+
+0
+2
+1
+aausat
+r1mm_w0.35mm_45deg_neg
+
+
+0
+2
+1
+aausat
+r1mm_w0.35mm_45deg_neg2
+
+
+0
+2
+1
+aausat
+r1mm_w0.35mm_90deg
+
+
+0
+2
+1
+aausat
+r2mm_w0.35mm_90deg
+
+
+0
+2
+1
+aausat
+skunk
+
+
+0
+0
+0
+aausat
+skunk2
+
+
+0
+0
+0
